@@ -4,5 +4,6 @@ from website import views
 app_name = 'website'
 
 urlpatterns = [
-    path('', views.test_view, name="index"),
+    path('', views.index_view, name="index"),
+    path('portfolio-details', views.pDetail_view, name="portfolioDetails")
 ]
